@@ -1,18 +1,14 @@
 # HSSWE
 By Leyi Wang, Nanjing University of Science & Technology, China
 
-## Table of Contents
-
-- Introduction
-- Datasets
-- Usage
-- Examples
-- Note
-- Citation
-
 ## Introduction
 
-This is the source code of our paper " *Leyi Wang, Rui Xia. Sentiment Lexicon Construction with Representation Learning Based on Hierarchical Sentiment Supervision[C]. Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing (EMNLP), 2017: 502-510.*".
+This is the source code of our paper:
+
+Leyi Wang, and Rui Xia. Sentiment Lexicon Construction with Representation Learning Based on Hierarchical Sentiment Supervision. Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing (EMNLP), 2017: 502-510.
+
+If you use this code, please cite our paper.
+
 
 ## Datasets
 
@@ -119,11 +115,5 @@ We preprocess SemEval 2013-2016 datasets, then re-evaluate sentiment lexicons in
 **Table2: ** Unsupervised Evaluation on Sentiment Dataset (Accuracy), where HSSWE (hard) utilizes thehard word-level sentiment distribution while HSSWE (soft) utilizes the soft word-level sentiment distribution.
 
 We also found HSSWE performs better when $ \alpha $ set to 0.1 on the processed dataset. And the document-level supervision seems more important than word-level supervision.
-
-## Citation
-
-If you use this code, please cite the following paper:
-
-[1] Leyi Wang, Rui Xia. Sentiment Lexicon Construction with Representation Learning Based on Hierarchical Sentiment Supervision[C]. Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing (EMNLP), 2017: 502-510.
 
 If you have further questions, please contact leyiwang.cn@gmail.com.
